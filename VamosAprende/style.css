@@ -1,0 +1,74 @@
+
+header{
+
+
+background-color: black;
+color: white;
+font-family:fantasy;
+padding: -10px;
+background-image:url("codigo.png");
+padding: 20px 20px 10px 10px;
+margin: 20px;
+
+
+}
+header h1{
+
+    left:50%;
+    text-align: justify;
+  
+
+
+}
+
+div{
+
+padding: 50px;
+height: 500px;
+width: 800;
+background-color: violet;
+margin: 1%;
+margin-top: 0%;
+
+
+
+}
+body{
+
+
+
+background-color: rgb(114, 13, 114);
+
+}
+nav#menu ul{
+
+
+list-style: none;
+text-transform: uppercase;
+font-size: 28px;
+font-family: fantasy;
+
+
+}
+
+nav#menu li{
+
+
+    display:inline-block;
+    background-color:rgba(0, 0,0, .5);
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+    top: -200px;
+    left: 900px;
+    transition: 2s;
+ 
+    
+}
+nav#menu li:hover{
+
+background-color: yellow;
+
+
+
+}
