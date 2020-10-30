@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+header{
+    background-color: mediumpurple;/*cor do cabeçario*/
+    
+    border: 1px solid;
+    padding: -40px;
+    margin-right: -10px;
+    margin-left: -10px;
+ 
+width:900;/*largura*/
+
+color: white;
+font-family: 'Orbitron', sans-serif;/*tipo de fonte*/
+font-size: 18px;
+height: 300px /* altura*/
+
+
+
+
+}
+
+
+
+header#cabecario h1{
+
+
+    padding: 20px;
+  
+
+}
+
+nav#Menu{
+   
+position: relative;/* posição de bloco e espaço*/
+font-family: 'Orbitron', sans-serif;/*tipo de fonte*/
+
+top: 30px;
+left: 900px;
+
+
+
+
+}nav#Menu li:hover{
+
+    background-color:rgba(0, 0,0, .1);/*cor do bloco*/
+
+
+
+}
+
+nav#Menu ul{
+
+   
+    list-style: none; /*retira o icone de referencia*/
+    text-transform: uppercase;/*tranforma tudo em maiusculo*/
+    font-size: 28px;  /*tamanho da letra*/
+    
+    
+    
+    }
+
+    nav#Menu li{
+
+       top: 200px;
+        display: inline-block;/*cria o bloco e alinha um do lado do outro*/
+        
+        padding: 10px;
+        left: 80px;
+        transition: 2s;
+
+
+    }
